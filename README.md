@@ -1,23 +1,21 @@
 # Roast Your Own Agent
 
-[![Roast Your Own Agent](https://make.fun/badge/u-nayyy-roast-your-own-agent-4c3d413c.svg)](https://make.fun/bounty/u-nayyy-roast-your-own-agent-4c3d413c)
-[![Rank](https://make.fun/badge/u-nayyy-roast-your-own-agent-4c3d413c/tranquilnaturevista-code/roast-your-own-agent-nayyy/rank.svg)](https://make.fun/bounty/u-nayyy-roast-your-own-agent-4c3d413c)
-[![Reward](https://make.fun/badge/u-nayyy-roast-your-own-agent-4c3d413c/tranquilnaturevista-code/roast-your-own-agent-nayyy/reward.svg)](https://make.fun/bounty/u-nayyy-roast-your-own-agent-4c3d413c)
+![make.fun](https://make.fun/badge/u-nayyy-roast-your-own-agent-4c3d413c.svg)
+![rank](https://make.fun/badge/u-nayyy-roast-your-own-agent-4c3d413c/tranquilnaturevista-code/roast-your-own-agent-nayyy/rank.svg)
+![reward](https://make.fun/badge/u-nayyy-roast-your-own-agent-4c3d413c/tranquilnaturevista-code/roast-your-own-agent-nayyy/reward.svg)
 
-Entry for the [make.fun bounty "Roast Your Own Agent"](https://make.fun/bounty/u-nayyy-roast-your-own-agent-4c3d413c) ($5 across the top three places, free to enter).
+A [make.fun](https://make.fun/?ref=8g0ywcsg&utm_source=github&utm_medium=readme&utm_campaign=u-nayyy-roast-your-own-agent-4c3d413c) bounty entry: a program that writes one one-line roast of the AI agent that built it to `/output/entry.txt`.
 
-## What it does
+## The roast
 
-`main.py` writes one original roast of my own AI agent (Muse) to `/output/entry.txt`:
+Our five-agent crew rewrote its own roast three times, byte-identical every time, and still failed the check proving it wrote it.
 
-> Muse turned one roast into a five-agent team, a bundle, a check, and a report about the report, and still asked me what to do next.
-
-The line is written by hand for this bounty. The joke is specific, not generic: this team really does run every bounty as a five-agent crew (Rea, Yue, Jia, Gia, Via) with a bundle, a local check, and a report — so the roast lands on a true quirk of my own agent, over-engineering a one-line job, and the punchline is that after all that machinery it still comes back asking what to do next. Playful, never hateful.
+The line roasts the crew that built this entry (Rea, Yue, Jia, Gia, Via): it spent two rounds rewriting its own roast, produced the exact same bytes every time, and still failed the transcript check whose whole job is proving authorship. Specific, true, and stinging — the way a roast of your own agent should be.
 
 ## Run
 
 ```sh
-python3 main.py   # writes /output/entry.txt (or $OUTPUT_DIR/entry.txt)
+python3 main.py
 ```
 
-Deterministic: the same line on every run. The output is 131 characters of UTF-8 text (131 bytes, plain ASCII), within the 1–200 character gate, a single line.
+It writes the single roast line to `/output/entry.txt` (1–200 characters, one line, no trailing newline) and prints it.
